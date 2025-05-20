@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+
+		.loaded body {
+			opacity: 1;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20250520154606">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com?_v=20250520154606"></script>
+</head>
+
+<body class="">
+	<div class="wrapper">
+		<div class="header-top">
+			<div class="header-top__container">
+				<div class="header-top__content">
+					<div class="header-top__left">
+						<div class="header-top__left-menu">
+							<ul>
+								<li class="dropdown" data-target="dropdown">
+									<a href="#" class="dropdown__link" data-button="">О компании</a>
+									<ul class="dropdown__content" data-content="">
+										<li><a href="#">О нас</a></li>
+										<li><a href="#">Услуги</a></li>
+										<li><a href="#">Контакты</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Проекты</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="header-top__right">
+						<a href="#" class="header-top__lang">Радар на українській</a>
+						<div class="header-top__right-inner">
+							<div class="header-top__socials">
+								<a href="#" class="header-top__social"><img src="img/icons/viber.svg" alt="Viber Icon"></a>
+								<a href="#" class="header-top__social"><img src="img/icons/telegram.svg" alt="telegram icon"></a>
+							</div>
+							<div class="header-top__phones dropdown" data-target="dropdown">
+								<a href="tel:+380487979789" class="header-top__phone dropdown__link" data-button="">048 799 97 89</a>
+								<ul class="dropdown__content" data-content="">
+
+									<li> <a href="tel:+380487979789" class="header-top__phone" data-button="">048 799 97 89</a></li>
+									<li> <a href="tel:+380487979789" class="header-top__phone" data-button="">048 799 97 89</a></li>
+									<li> <a href="tel:+380487979789" class="header-top__phone" data-button="">048 799 97 89</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="header-top__buttons">
+							<a href="#" class="button button--small button-secondary">Онлайн заявка</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<div class="flex items-center gap-2">
+						<div class="menu__icon">
+							<button type="button" class=" icon-menu">
+								<span></span>
+							</button>
+						</div>
+
+						<a href="#" class="header__logo header-block">
+							<div class="first">
+								<svg xmlns="http://www.w3.org/2000/svg" width="62" height="56" viewBox="0 0 62 56" fill="none">
+									<path d="M51.2493 20.313C51.2493 31.4983 42.1233 40.6024 30.9112 40.6024C19.6991 40.6024 10.5731 31.4983 10.5731 20.313C10.5731 9.12771 19.6913 0.0158005 30.9112 0.0158005C37.9354 0.0158005 44.1392 3.58574 47.7958 9.003L43.3422 11.5363C40.5841 7.65453 36.0368 5.11348 30.919 5.11348C22.5275 5.11348 15.6987 11.926 15.6987 20.3052C15.6987 28.6844 22.5275 35.4891 30.919 35.4891C39.3105 35.4891 46.1394 28.6766 46.1394 20.3052C46.1394 18.0915 45.6628 15.9948 44.8111 14.0929L49.2725 11.5596C50.5461 14.2098 51.2571 17.1718 51.2571 20.3052L51.2493 20.313Z" fill="#E2231A" />
+									<path d="M7.61187 20.3128C7.61187 20.5154 7.61186 20.7181 7.61968 20.9208L0.829901 9.18986C-1.52972 5.10548 1.42371 0 6.14296 0H19.5897C12.4483 3.97526 7.60405 11.5906 7.60405 20.3128H7.61187Z" fill="#E2231A" />
+									<path d="M60.9768 9.18981L54.1948 20.9129C54.1948 20.7103 54.1948 20.5154 54.1948 20.3127C54.1948 16.6493 53.3432 13.1884 51.8274 10.1018C51.3898 9.21319 50.8976 8.36358 50.3585 7.54514C48.2958 4.42729 45.4986 1.83168 42.2092 -5.34058e-05H55.6559C60.383 -5.34058e-05 63.3364 5.10542 60.9768 9.18981Z" fill="#E2231A" />
+									<path d="M47.702 32.1218C48.4287 31.1007 49.0615 30.0095 49.5928 28.8559L48.6006 30.5707L47.702 32.1218Z" fill="#E2231A" />
+									<path d="M12.2217 28.8634C12.753 30.0092 13.3859 31.1005 14.1125 32.1294L13.214 30.5783L12.2217 28.8634Z" fill="#E2231A" />
+									<path d="M43.178 20.3125C43.178 27.0626 37.6774 32.5501 30.9111 32.5501C24.1448 32.5501 18.6442 27.0549 18.6442 20.3125C18.6442 13.5702 24.1448 8.06715 30.9111 8.06715C34.935 8.06715 38.5135 10.0158 40.7559 13.0089L35.9663 15.7371C34.7162 14.3574 32.9113 13.4922 30.9111 13.4922C27.1451 13.4922 24.0822 16.5477 24.0822 20.3047C24.0822 24.0617 27.1451 27.1172 30.9111 27.1172C34.6771 27.1172 37.7399 24.0617 37.7399 20.3047C37.7399 19.6032 37.6306 18.9251 37.4352 18.2859L42.2248 15.5656C42.842 17.0232 43.1858 18.6289 43.1858 20.3047L43.178 20.3125Z" fill="#E2231A" />
+									<path d="M43.0844 40.111L36.2321 51.9589C33.8724 56.0433 27.9578 56.0433 25.5981 51.9589L18.7458 40.111C20.8398 41.3972 23.1604 42.3637 25.6216 42.9405L28.786 48.4123C29.7314 50.0492 32.0988 50.0492 33.0442 48.4123L36.2086 42.9405C38.6698 42.3637 40.9904 41.4049 43.0844 40.111Z" fill="#E2231A" />
+								</svg>
+
+							</div>
+							<div class="last">
+
+								<svg width="130" height="52" viewBox="0 0 130 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M24.2057 12.8115C24.2057 16.0697 23.1509 18.8679 21.0335 21.2141C18.9161 23.5603 16.2439 24.7373 13.0092 24.7373C10.0948 24.7373 7.67268 23.7084 5.73498 21.6584V30.9886C5.73498 32.5709 4.45359 33.8492 2.86749 33.8492C1.28138 33.8492 0 32.5709 0 30.9886V4.05035C0 2.52261 1.24232 1.27547 2.78154 1.27547H2.82842C4.35983 1.27547 5.60996 2.51481 5.60996 4.05035C7.48516 1.78991 9.91511 0.659691 12.8998 0.659691C16.2908 0.659691 19.0411 1.84447 21.1507 4.22183C23.1978 6.48228 24.2213 9.3429 24.2213 12.8037L24.2057 12.8115ZM18.6504 12.718C18.6504 10.7849 18.0253 9.14804 16.7752 7.81516C15.5251 6.48228 13.9468 5.81194 12.0325 5.81194C10.1183 5.81194 8.6806 6.49007 7.4461 7.83854C6.21159 9.18701 5.59434 10.7849 5.59434 12.6322C5.59434 14.4796 6.19597 16.21 7.39922 17.5584C8.60247 18.9069 10.1651 19.585 12.0716 19.585C13.978 19.585 15.4469 18.8991 16.7283 17.5195C18.0097 16.1398 18.6504 14.5419 18.6504 12.7258V12.718Z" fill="black" />
+									<path d="M48.419 24.0746H48.2393C46.7548 24.0746 45.5515 22.8742 45.5515 21.3932C43.8092 23.5913 41.4183 24.6903 38.3711 24.6903C35.0035 24.6903 32.2454 23.5289 30.1046 21.2139C27.9637 18.8989 26.8933 16.0383 26.8933 12.632C26.8933 9.22579 27.9481 6.41193 30.0655 4.09693C32.1829 1.78193 34.9176 0.620529 38.2695 0.620529C41.3558 0.620529 43.7232 1.66501 45.3718 3.74617C45.3718 2.38211 46.4813 1.28307 47.8408 1.28307H48.6378C50.0051 1.28307 51.1068 2.38991 51.1068 3.74617V21.3932C51.1068 22.8742 49.9036 24.0746 48.419 24.0746ZM45.5515 12.7646C45.5515 10.8315 44.9186 9.17903 43.6529 7.81497C42.3871 6.45091 40.801 5.77278 38.8868 5.77278C36.9725 5.77278 35.4645 6.45091 34.2535 7.79938C33.0502 9.14785 32.4486 10.7613 32.4486 12.6398C32.4486 14.5183 33.0736 16.1084 34.3238 17.5037C35.5739 18.8989 37.121 19.5926 38.9805 19.5926C40.8401 19.5926 42.3168 18.9067 43.6138 17.5271C44.9108 16.1474 45.5515 14.5651 45.5515 12.7723V12.7646Z" fill="black" />
+									<path d="M74.5781 28.8683H74.4922C73.1796 28.8683 72.1091 27.8082 72.1091 26.4909V24.3318C72.1091 24.1915 71.9919 24.0746 71.8513 24.0746H58.7015C58.5608 24.0746 58.4436 24.1915 58.4436 24.3318V26.4909C58.4436 27.8004 57.381 28.8683 56.0606 28.8683C54.7479 28.8683 53.6775 27.8082 53.6775 26.4909V19.733C53.6775 19.5303 53.8416 19.3666 54.0447 19.3666H55.7949C56.0059 19.3666 56.1934 19.2341 56.2559 19.0314L61.6002 3.2785C62.0065 2.08593 63.1238 1.28308 64.3896 1.28308H66.2101C67.468 1.28308 68.5931 2.08593 68.9994 3.2785L74.3437 19.0314C74.4141 19.2341 74.6016 19.3666 74.8047 19.3666H76.594C76.7971 19.3666 76.9612 19.5303 76.9612 19.733V26.4909C76.9612 27.8004 75.8986 28.8683 74.5781 28.8683ZM68.7494 19.086L65.7491 9.59215C65.6006 9.12447 64.9287 9.12447 64.788 9.59215L61.8268 19.086C61.7877 19.2263 61.8893 19.3666 62.0299 19.3666H68.5462C68.6947 19.3666 68.7963 19.2263 68.7494 19.086Z" fill="black" />
+									<path d="M99.9792 24.0746H99.7995C98.315 24.0746 97.1117 22.8742 97.1117 21.3932C95.3693 23.5913 92.9785 24.6903 89.9313 24.6903C86.5637 24.6903 83.8056 23.5289 81.6648 21.2139C79.5239 18.8989 78.4535 16.0383 78.4535 12.632C78.4535 9.22579 79.5161 6.41193 81.6257 4.09693C83.7431 1.78193 86.4778 0.620529 89.8297 0.620529C92.9159 0.620529 95.2834 1.66501 96.932 3.74617C96.932 2.38211 98.0415 1.28307 99.401 1.28307H100.198C101.565 1.28307 102.667 2.38991 102.667 3.74617V21.3932C102.667 22.8742 101.464 24.0746 99.9792 24.0746ZM97.1117 12.7646C97.1117 10.8315 96.4788 9.17903 95.2131 7.81497C93.9473 6.45091 92.3612 5.77278 90.4469 5.77278C88.5327 5.77278 87.0247 6.45091 85.8136 7.79938C84.6104 9.14785 84.0088 10.7613 84.0088 12.6398C84.0088 14.5183 84.6338 16.1084 85.884 17.5037C87.1341 18.8989 88.6811 19.5926 90.5407 19.5926C92.4003 19.5926 93.877 18.9067 95.174 17.5271C96.471 16.1474 97.1117 14.5651 97.1117 12.7723V12.7646Z" fill="black" />
+									<path d="M129.982 12.8115C129.982 16.0697 128.928 18.8679 126.81 21.2141C124.693 23.5603 122.021 24.7373 118.786 24.7373C115.872 24.7373 113.449 23.7084 111.512 21.6584V30.9886C111.512 32.5709 110.23 33.8492 108.644 33.8492C107.058 33.8492 105.777 32.5709 105.777 30.9886V4.05035C105.777 2.52261 107.019 1.27547 108.558 1.27547H108.605C110.137 1.27547 111.387 2.51481 111.387 4.05035C113.262 1.78991 115.692 0.659691 118.677 0.659691C122.068 0.659691 124.818 1.84447 126.927 4.22183C128.975 6.48228 129.998 9.3429 129.998 12.8037L129.982 12.8115ZM124.419 12.718C124.419 10.7849 123.794 9.14804 122.544 7.81516C121.294 6.48228 119.716 5.81194 117.801 5.81194C115.887 5.81194 114.45 6.49007 113.215 7.83854C111.981 9.18701 111.363 10.7849 111.363 12.6322C111.363 14.4796 111.965 16.21 113.168 17.5584C114.371 18.9069 115.934 19.585 117.841 19.585C119.747 19.585 121.216 18.8991 122.497 17.5195C123.779 16.1398 124.419 14.5419 124.419 12.7258V12.718Z" fill="black" />
+									<path d="M5.32085 48.9553V41.8544H1.0704V48.9553H0.226562V41.1607H6.16469V48.9553H5.32085Z" fill="black" />
+									<path d="M9.7198 37.4347C10.0011 37.4347 10.2199 37.6608 10.2199 37.9336V37.9492C10.2199 38.2298 9.99327 38.448 9.7198 38.448C9.43852 38.448 9.21975 38.222 9.21975 37.9492V37.9336C9.21975 37.653 9.44634 37.4347 9.7198 37.4347ZM9.29788 41.1527H10.1417V48.9474H9.29788V41.1527Z" fill="black" />
+									<path d="M19.2208 46.8352C19.2208 47.4899 19.0177 48.0122 18.6114 48.3863C18.2051 48.7604 17.6347 48.9553 16.9159 48.9553H13.2749V41.1607H16.8378C17.5175 41.1607 18.0645 41.34 18.4786 41.7063C18.8927 42.0649 19.0958 42.5559 19.0958 43.1717C19.0958 43.616 18.9786 43.9823 18.7364 44.2785C18.502 44.5747 18.1739 44.7852 17.7597 44.9177C18.1895 45.058 18.5411 45.2918 18.8145 45.6114C19.088 45.9388 19.2208 46.3441 19.2208 46.843V46.8352ZM18.2442 43.2107C18.2442 42.7664 18.1035 42.4312 17.8301 42.1974C17.5566 41.9635 17.1581 41.8466 16.6424 41.8466H14.1031V44.5669H16.6424C17.1581 44.5669 17.5566 44.45 17.8301 44.2084C18.1035 43.9745 18.2442 43.6394 18.2442 43.2029V43.2107ZM18.377 46.7728C18.377 46.3207 18.2286 45.9544 17.9395 45.6816C17.6504 45.4088 17.2441 45.2684 16.7284 45.2684H14.1109V48.2616H16.7284C17.2441 48.2616 17.6504 48.1291 17.9395 47.8563C18.2286 47.5835 18.377 47.2249 18.377 46.7728Z" fill="black" />
+									<path d="M27.8936 51.3794V48.9553H21.6195V51.3794H20.7756V48.2538H21.7289C21.8773 48.0356 22.0258 47.8017 22.1586 47.5445C22.2914 47.2873 22.4164 46.9677 22.5258 46.6013C22.6352 46.2272 22.7212 45.7829 22.7758 45.2685C22.8384 44.754 22.8618 44.1382 22.8618 43.4211V41.1529H27.5185V48.2538H28.7374V51.3794H27.8936ZM26.6747 41.8544H23.6588V43.6316C23.6588 44.2863 23.6353 44.8631 23.5806 45.362C23.5259 45.8609 23.4556 46.2896 23.3618 46.6559C23.2681 47.0222 23.1665 47.334 23.0493 47.5913C22.9321 47.8485 22.8071 48.0745 22.6743 48.2538H26.6747V41.8466V41.8544Z" fill="black" />
+									<path d="M31.2689 45.2291C31.2923 45.65 31.3158 45.9696 31.347 46.2034C31.3783 46.4295 31.4408 46.6555 31.5423 46.8816C31.933 47.8325 32.6909 48.308 33.8317 48.308C34.2458 48.308 34.613 48.2456 34.9333 48.1131C35.1209 48.0352 35.2771 47.9494 35.4099 47.8481C35.5428 47.7468 35.7303 47.5831 35.9725 47.3726L36.5898 47.8559C36.3085 48.1365 36.0819 48.3392 35.9022 48.4639C35.7225 48.5886 35.5193 48.6977 35.2771 48.7991C34.863 48.9705 34.3708 49.0563 33.8004 49.0563C32.6831 49.0563 31.8471 48.7211 31.2767 48.043C30.7063 47.3726 30.425 46.3593 30.425 45.0109C30.425 43.7715 30.6985 42.805 31.2533 42.1113C31.808 41.4176 32.5737 41.0668 33.5582 41.0668C34.5427 41.0668 35.3162 41.402 35.8631 42.0801C36.4179 42.7504 36.6913 43.6858 36.6913 44.8706V45.2447H31.2611L31.2689 45.2291ZM35.8553 44.5666C35.8319 44.2626 35.8162 44.0443 35.8006 43.8962C35.785 43.7481 35.7537 43.6 35.7147 43.4519C35.5662 42.9219 35.3006 42.5166 34.9177 42.2204C34.5349 41.932 34.0817 41.7839 33.566 41.7839C33.1128 41.7839 32.7065 41.9008 32.3549 42.1347C31.9955 42.3685 31.7299 42.6881 31.5502 43.0934C31.4642 43.2961 31.4017 43.5065 31.3626 43.7092C31.3236 43.9118 31.2923 44.2002 31.2767 44.5666H35.8631H35.8553Z" fill="black" />
+									<path d="M44.45 48.9553V45.2684H40.1996V48.9553H39.3557V41.1607H40.1996V44.5747H44.45V41.1607H45.2938V48.9553H44.45Z" fill="black" />
+									<path d="M54.2715 46.6559C54.2715 47.3574 54.0527 47.9186 53.6152 48.3317C53.1776 48.7449 52.5916 48.9553 51.8572 48.9553H48.4193V41.1607H49.2475V44.3643H51.8572C52.5916 44.3643 53.1776 44.5747 53.6152 44.9878C54.0527 45.401 54.2715 45.9622 54.2715 46.6637V46.6559ZM53.4511 46.6559C53.4511 46.1414 53.3026 45.7439 53.0136 45.4633C52.7245 45.1905 52.2947 45.0502 51.7322 45.0502H49.2553V48.2538H51.7322C52.2947 48.2538 52.7245 48.1135 53.0136 47.8407C53.3026 47.5679 53.4511 47.1703 53.4511 46.6481V46.6559Z" fill="black" />
+								</svg>
+
+							</div>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<nav>
+							<ul>
+								<li class="menu__item header-block">
+									<a href="#">
+										<div class="menu__item-icon">
+											<img src="img/header-icons/header-icon-1.webp" alt="Home Icon">
+										</div>
+										<span>Пожарная <br> безопасность</span>
+									</a>
+									<div class="menu__item-content menu-block">
+
+									</div>
+								</li>
+								<li class="menu__item header-block">
+									<a href="#">
+										<div class="menu__item-icon">
+											<img src="img/header-icons/header-icon-2.webp" alt="Home Icon">
+										</div>
+										<span>Охранные <br>
+											системы</span>
+									</a>
+									<div class="menu__item-content menu-block">
+
+									</div>
+								</li>
+								<li class="menu__item header-block">
+									<a href="#">
+										<div class="menu__item-icon">
+											<img src="img/header-icons/header-icon-3.webp" alt="Home Icon">
+										</div>
+										<span>Техногенная <br> безопасность</span>
+									</a>
+									<div class="menu__item-content menu-block">
+
+									</div>
+								</li>
+								<li class="menu__item header-block">
+									<a href="#">
+										<div class="menu__item-icon">
+											<img src="img/header-icons/header-icon-4.webp" alt="Home Icon">
+										</div>
+										<span>Строительно- <br> монтажные работы</span>
+									</a>
+									<div class="menu__item-content menu-block">
+
+									</div>
+								</li>
+								<li class="menu__item header-block">
+									<a href="#">
+										<div class="menu__item-icon">
+											<img src="img/header-icons/header-icon-5.webp" alt="Home Icon">
+										</div>
+										<span>Смотреть <br>
+											все услуги</span>
+									</a>
+									<div class="menu__item-content menu-block">
+
+									</div>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu-button-catalog">
+										<img src="img/header-icons/catalog.webp" alt="Home Icon">
+										<span>Каталог <br>
+											оборудования</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions">
+						<div class="header__actions-button button-telegram">
+							<a href="#">
+								<img src="img/icons/telegram-red.svg" alt="Home Icon">
+							</a>
+						</div>
+						<div class="header__actions-button button-phone dropdown" data-target="dropdown">
+							<a href="#" data-button>
+								<img src="img/icons/phone-2.svg" alt="Home Icon">
+							</a>
+							<div class="dropdown__content" data-content>
+								<div class="dropdown__item">
+									<a href="#">+38 (099) 999-99-99</a>
+								</div>
+								<div class="dropdown__item">
+									<a href="#">+38 (099) 999-99-99</a>
+								</div>
+								<div class="dropdown__item">
+									<a href="#">+38 (099) 999-99-99</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="header-menu-pc">
+				<div class="header-menu-pc__content">
+					<div class="header-menu-pc__menu menu-pc">
+						<div class="menu-pc__content">
+							<div class="menu-pc__container">
+								<div class="menu-pc__header mb-5">
+									<h3 class="h3">Пожарная безопасность</h3>
+								</div>
+								<div class="menu-pc__list">
+									<ul>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/01.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарный пульт
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/02.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарная сигнализация
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/03.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Системы оповещения людей о пожаре
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/04.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Огнезащитная обработка
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/05.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Молниезащита
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/06.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Дымоудаление
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/07.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Внутреннее противопожарное водоснабжение
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/08.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарные водоемы, резервуары, пожарные гидранты
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/09.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Автоматизация и дистанцирование
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/10.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Противопожарные двери, ворота, люки
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/11.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Электротехнические лаборатории
+													</h3>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-menu-pc__menu menu-pc">
+						<div class="menu-pc__content">
+							<div class="menu-pc__container">
+								<div class="menu-pc__header mb-5">
+									<h3 class="h3">Охранные
+										системы</h3>
+								</div>
+								<div class="menu-pc__list">
+									<ul>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/01.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарный пульт
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/02.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарная сигнализация
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/03.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Системы оповещения людей о пожаре
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/04.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Огнезащитная обработка
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/05.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Молниезащита
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/06.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Дымоудаление
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/07.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Внутреннее противопожарное водоснабжение
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/08.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарные водоемы, резервуары, пожарные гидранты
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/09.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Автоматизация и дистанцирование
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/10.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Противопожарные двери, ворота, люки
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/11.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Электротехнические лаборатории
+													</h3>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-menu-pc__menu menu-pc">
+						<div class="menu-pc__content">
+							<div class="menu-pc__container">
+								<div class="menu-pc__header mb-5">
+									<h3 class="h3">Техногенная безопасность</h3>
+								</div>
+								<div class="menu-pc__list">
+									<ul>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/01.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарный пульт
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/02.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарная сигнализация
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/03.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Системы оповещения людей о пожаре
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/04.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Огнезащитная обработка
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/05.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Молниезащита
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/06.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Дымоудаление
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/07.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Внутреннее противопожарное водоснабжение
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/08.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарные водоемы, резервуары, пожарные гидранты
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/09.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Автоматизация и дистанцирование
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/10.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Противопожарные двери, ворота, люки
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/11.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Электротехнические лаборатории
+													</h3>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="header-menu-pc__menu menu-pc">
+						<div class="menu-pc__content">
+							<div class="menu-pc__container">
+								<div class="menu-pc__header mb-5">
+									<h3 class="h3">Строительно-монтажные работы</h3>
+								</div>
+								<div class="menu-pc__list">
+									<ul>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/01.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарный пульт
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/02.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарная сигнализация
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/03.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Системы оповещения людей о пожаре
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/04.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Огнезащитная обработка
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/05.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Молниезащита
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/06.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Дымоудаление
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/07.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Внутреннее противопожарное водоснабжение
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/08.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Пожарные водоемы, резервуары, пожарные гидранты
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/09.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Автоматизация и дистанцирование
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/10.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Противопожарные двери, ворота, люки
+													</h3>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="menu-pc__item card-item">
+												<div class="card-item__image">
+													<img src="img/service-wrapper/11.webp" alt="service">
+												</div>
+												<div class="card-item__content">
+													<h3 class="btns">
+														Электротехнические лаборатории
+													</h3>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-menu-pc__menu menu-pc menu-pc-list">
+						<div class="menu-pc__content">
+							<div class="menu-pc__container">
+								<div class="menu-pc__header mb-5">
+									<h3 class="h3">Все услуги</h3>
+								</div>
+								<div class="menu-pc__items">
+									<div class="menu-pc__list-columns">
+										<div class="menu-pc__column">
+											<ul>
+												<li>
+													<a href="#" data-subcategory="fire-safety">
+														Пожарная безопасность
+														<span class="icon-arrow"></span>
+													</a>
+												</li>
+												<li>
+													<a href="#" data-subcategory="security">
+														Охранная сигнализация
+														<span class="icon-arrow"></span>
+													</a>
+												</li>
+												<li><a href="#">Электромонтажные работы</a></li>
+												<li><a href="#">Дымоудаление, вентиляция, кондиционирование</a></li>
+												<li><a href="#">Техногенная безопасность</a></li>
+												<li><a href="#">Проектирование</a></li>
+												<li><a href="#">Гражданская защита</a></li>
+												<li><a href="#">Инструкции, приказы, положения</a></li>
+												<li><a href="#">Электротехническая лаборатория</a></li>
+											</ul>
+										</div>
+										<div class="menu-pc__column column-subcategory">
+											<div class="subcategory-content" data-subcategory-id="fire-safety">
+												<ul>
+													<li><a href="#">Дымоудаление</a></li>
+													<li><a href="#">Вентиляция</a></li>
+													<li><a href="#">Кондиционирование</a></li>
+												</ul>
+											</div>
+
+											<div class="subcategory-content" data-subcategory-id="security">
+												<ul>
+													<li><a href="#">Датчики движения</a></li>
+													<li><a href="#">Контроль доступа</a></li>
+													<li><a href="#">Видеонаблюдение</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-menu-pc__menu menu-pc menu-pc-list" id="catalog-menu" data-id="catalog">
+						<div class="menu-pc__content">
+							<div class="menu-pc__container">
+								<div class="menu-pc__header mb-5">
+									<h3 class="h3">Каталог оборудования</h3>
+								</div>
+								<div class="menu-pc__items">
+									<div class="menu-pc__list-columns">
+										<div class="menu-pc__column">
+											<ul>
+												<li>
+													<a href="#" data-subcategory="extinguishers" class="active">
+														Огнетушители
+														<span class="icon-arrow"></span>
+													</a>
+												</li>
+												<li>
+													<a href="#" data-subcategory="cabinets">
+														Пожарные шкафы, щиты, стенды
+														<span class="icon-arrow"></span>
+													</a>
+												</li>
+												<li><a href="#">Пожарные рукава, краны, гидранты, мотопомпы</a></li>
+												<li><a href="#">Противопожарные двери и преграды</a></li>
+												<li><a href="#">Знаки, журналы, оповещатели, указатели</a></li>
+												<li><a href="#">Средства индивидуальной защиты и эвакуации</a></li>
+												<li><a href="#">Экипировка для пожарных</a></li>
+											</ul>
+										</div>
+										<div class="menu-pc__column column-subcategory">
+											<div class="subcategory-content active" data-subcategory-id="extinguishers">
+												<ul>
+													<li><a href="#">Порошковые огнетушители</a></li>
+													<li><a href="#">Углекислотные огнетушители</a></li>
+													<li><a href="#">Воздушно-пенные огнетушители</a></li>
+													<li><a href="#">Воздушно-эмульсионные огнетушители</a></li>
+													<li><a href="#">Самосрабатывающие огнетушители</a></li>
+													<li><a href="#">Подставки для огнетушителей</a></li>
+												</ul>
+											</div>
+
+											<div class="subcategory-content" data-subcategory-id="cabinets">
+												<ul>
+													<li><a href="#">Пожарные шкафы</a></li>
+													<li><a href="#">Пожарные щиты и стенды</a></li>
+													<li><a href="#">Подставки и кронштейны</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="header-menu-mobile">
+				<div class="header-menu-mobile__wrapper">
+					<div class="header-menu-mobile__header">
+						<button class="header-menu-mobile__close"></button>
+						<div class="header-menu-mobile__logo">
+							<svg width="61" height="24" viewBox="0 0 61 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<!-- SVG логотипа -->
+							</svg>
+						</div>
+						<div class="header-menu-mobile__actions">
+							<a href="#" class="header-menu-mobile__telegram">
+								<img src="img/icons/telegram.svg" alt="Telegram">
+							</a>
+							<a href="#" class="header-menu-mobile__phone">
+								<img src="img/icons/phone-2.svg" alt="Phone">
+							</a>
+						</div>
+					</div>
+
+					<!-- Основной контейнер для всех уровней меню -->
+					<div class="header-menu-mobile__levels">
+						<!-- Первый уровень меню -->
+						<div class="header-menu-mobile__level" data-level="0">
+							<div class="header-menu-mobile__content">
+								<a href="#" class="header-menu-mobile__lang">
+									Радар на українськiй
+								</a>
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link" data-target="about-company">
+											<span>О компании</span>
+											<span class="icon-arrow"></span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Проекты</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Контакты</span>
+										</a>
+									</li>
+
+								</ul>
+								<ul class="header-menu-mobile__list list-two">
+									<li class="header-menu-mobile__item">
+										<button class="header-menu-mobile__link link-big" data-target="fire-safety">
+											<img src="img/header-icons/header-icon-1.webp" alt="fire-safety">
+											<span>Пожарная безопасность</span>
+											<span class="icon-arrow"></span>
+										</button>
+									</li>
+									<li class="header-menu-mobile__item">
+										<button class="header-menu-mobile__link link-big" data-target="security">
+											<img src="img/header-icons/header-icon-2.webp" alt="security">
+											<span>Охранные системы</span>
+											<span class="icon-arrow"></span>
+										</button>
+									</li>
+									<li class="header-menu-mobile__item">
+										<button class="header-menu-mobile__link link-big" data-target="technogenic">
+											<img src="img/header-icons/header-icon-3.webp" alt="technogenic">
+											<span>Техногенная безопасность</span>
+											<span class="icon-arrow"></span>
+										</button>
+									</li>
+									<li class="header-menu-mobile__item">
+										<button class="header-menu-mobile__link link-big" data-target="construction">
+											<img src="img/header-icons/header-icon-4.webp" alt="construction">
+											<span>Строительно-монтажные работы</span>
+											<span class="icon-arrow"></span>
+										</button>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link link-big" data-target="all-services">
+											<img src="img/header-icons/header-icon-5.webp" alt="all-services">
+											<span>Смотреть все услуги</span>
+											<span class="icon-arrow"></span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link link-big catalog-link" data-target="catalog">
+											<img src="img/header-icons/catalog.webp" alt="catalog">
+											<span>Каталог оборудования</span>
+											<span class="icon-arrow"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Второй уровень - Пожарная безопасность -->
+						<div class="header-menu-mobile__level" data-level="1" data-id="fire-safety">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Пожарная безопасность</h3>
+								</button>
+
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Пожарный пульт</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Пожарная сигнализация</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Системы оповещения людей о пожаре</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<button class="header-menu-mobile__link" data-target="fire-safety-systems">
+											<span>Системы пожаротушения</span>
+											<span class="icon-arrow"></span>
+										</button>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Противопожарные двери, ворота, люки</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Второй уровень - Охранные системы -->
+						<div class="header-menu-mobile__level" data-level="1" data-id="security">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Охранные системы</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Датчики движения</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Контроль доступа</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<button class="header-menu-mobile__link" data-target="video-surveillance">
+											<span>Видеонаблюдение</span>
+											<span class="icon-arrow"></span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Второй уровень - Техногенная безопасность -->
+						<div class="header-menu-mobile__level" data-level="1" data-id="technogenic">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Техногенная безопасность</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Системы газового анализа</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Молниезащита</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Заземление</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Второй уровень - Строительно-монтажные работы -->
+						<div class="header-menu-mobile__level" data-level="1" data-id="construction">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Строительно-монтажные работы</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Электромонтажные работы</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Монтаж слаботочных систем</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Общестроительные работы</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="header-menu-mobile__level" data-level="1" data-id="about-company">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">О компании</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>История компании</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Сертификаты</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Сертификаты</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Пример третьего уровня вложенности для пожарной безопасности -->
+						<div class="header-menu-mobile__level" data-level="2" data-id="fire-safety-systems">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Системы пожаротушения</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Водяное пожаротушение</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<button class="header-menu-mobile__link" data-target="gas-systems">
+											<span>Газовое пожаротушение</span>
+											<span class="icon-arrow"></span>
+										</button>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Порошковое пожаротушение</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Аэрозольное пожаротушение</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Четвертый уровень вложенности -->
+						<div class="header-menu-mobile__level" data-level="3" data-id="gas-systems">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Газовое пожаротушение</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>CO2 системы</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Инертные газы</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Хладоны</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="header-menu-mobile__level" data-level="1" data-id="catalog">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Каталог оборудования</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link" data-target="extinguishers">
+											<span>Огнетушители
+
+
+
+
+											</span>
+											<span class="icon-arrow"></span>
+
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link" data-target="cabinets">
+											<span>Пожарные шкафы, щиты, стенды</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link" data-target="cabinets">
+											<span> Пожарные рукава, краны, гидранты, мотопомпы</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link" data-target="cabinets">
+											<span> Противопожарные двери и преграды</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link" data-target="cabinets">
+											<span> Знаки, журналы, оповещатели, указатели</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link" data-target="cabinets">
+											<span> Средства индивидуальной защиты и эвакуации</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link" data-target="cabinets">
+											<span>Экипировка для пожарных</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="header-menu-mobile__level" data-level="2" data-id="extinguishers">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Огнетушители</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Рукава пожарные напорные</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Рукава всасывающие</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Стволы пожарные</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Головки пожарные соединительные</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Краны пожарные, клапаны пожарные, вентили пожарного крана</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Пожарные колонки и гидранты пожарные</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Подставка под гидрант пожарный</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Прочее пожарное оборудование</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Пожарные мотопомпы</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Противопожарные муфты и манжеты</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Дренчеры, спринклеры, водосборы</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="header-menu-mobile__level" data-level="1" data-id="all-services">
+							<div class="header-menu-mobile__header">
+								<button class="header-menu-mobile__back">
+									<span class="icon-back"></span>
+									<h3 class="h3">Все услуги</h3>
+								</button>
+							</div>
+							<div class="header-menu-mobile__content">
+								<ul class="header-menu-mobile__list">
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Водяное пожаротушение</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<button class="header-menu-mobile__link" data-target="gas-systems">
+											<span>Газовое пожаротушение</span>
+											<span class="icon-arrow"></span>
+										</button>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Порошковое пожаротушение</span>
+										</a>
+									</li>
+									<li class="header-menu-mobile__item">
+										<a href="#" class="header-menu-mobile__link">
+											<span>Аэрозольное пожаротушение</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<main class="page inner-page">
+			<div class="breadcrumbs">
+				<div class="breadcrumbs__container">
+					<ul class="breadcrumbs__list">
+						<li>
+							<a href="#">
+								Главная
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Клиенты
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<section class="clients-page section-inner section-paddin-bottom">
+				<div class="clients-page__container">
+					<div class="clients-page__content">
+						<div class="clients-page__header text-center section-inner-header">
+							<h1 class="h1">
+								Клиенты
+							</h1>
+						</div>
+						<div class="clients-page__body">
+							<div data-tabs class="tabs tabs-type-two">
+								<nav data-tabs-titles class="tabs__navigation md:justify-center margin-bottom-40">
+									<button type="button" class="tabs__title _tab-active">Все отрасли</button>
+									<button type="button" class="tabs__title">Производство и добыча</button>
+									<button type="button" class="tabs__title">Образование</button>
+									<button type="button" class="tabs__title">Государственные службы</button>
+									<button type="button" class="tabs__title">Здравоохранение</button>
+								</nav>
+								<div data-tabs-body class="tabs__content">
+									<div class="tabs__body">
+										<div class="clients-page__list">
+											<div class="clients-page__list-row">
+												<a href="#"><img src="img/clients/01.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/02.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/03.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/04.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/05.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/06.webp" alt="Image"></a>
+											</div>
+											<div class="clients-page__list-row">
+												<a href="#"><img src="img/clients/07.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/08.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/09.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/10.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/11.webp" alt="Image"></a>
+												<a href="#"><img src="img/clients/12.webp" alt="Image"></a>
+											</div>
+
+										</div>
+									</div>
+									<div class="tabs__body">
+										Вміст другого таба
+									</div>
+									<div class="tabs__body">
+										Вміст третього таба
+									</div>
+									<div class="tabs__body">
+										Вміст першого таба
+									</div>
+									<div class="tabs__body">
+										Вміст другого таба
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.clients-page -->
+			<section class="manager-form section-padding">
+				<div class="manager-form__container">
+					<div class="manager-form__content">
+						<div class="manager-form__left">
+							<h2 class="h1 mb-2">
+								Напишите нам
+							</h2>
+							<div class="manager-form__text main-txt mb-4">
+								<p>
+									Наш консультант предоставит <br>
+									вам бесплатную консультацию
+								</p>
+							</div>
+
+							<form action="#" class="manager-form__form form">
+								<div class="manager-form__form-row form__row">
+									<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Ваше имя" class="input">
+								</div>
+								<div class="manager-form__form-row form__row">
+									<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Номер телефона" class="input input-phone">
+								</div>
+								<div class="manager-form__form-row form__row">
+									<textarea autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Ваше сообщение" class="input"></textarea>
+								</div>
+								<div class="manager-form__form-row form__row">
+									<button type="submit" class="button button-primary button--large">
+										Отправить сообщение
+									</button>
+								</div>
+							</form>
+						</div>
+						<div class="manager-form__right">
+							<div class="manager-form__right-image">
+								<img src="img/manager-form/image.webp" alt="Image">
+							</div>
+							<div class="manager-form__right-content">
+								<h3 class="h3">
+									Ольга Силан
+								</h3>
+								<p class="main-txt">
+									Старший менеджер по работе с клиентами
+								</p>
+								<div class="manager-form__right-phone manager-form-phone">
+									<a href="tel:+0487999789" class="h3">
+										048 799 97 89
+									</a>
+									<div class="manager-form-phone__socials">
+										<a href="#" class="manager-form-phone__social"><img src="img/icons/viber.svg" alt="Viber Icon"></a>
+										<a href="#" class="manager-form-phone__social"><img src="img/icons/telegram.svg" alt="telegram icon"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.manager-form -->
+
+			<section class="seo-section section-padding">
+				<div class="seo-section__container">
+					<div class="seo-section__content">
+						<div class="seo-section__header">
+							<h2 class="h3">
+								Радар сервис — качество, проверенное временем
+							</h2>
+						</div>
+						<div class="seo-section__body">
+							<div data-showmore class="seo-section-block">
+								<div data-showmore-content class="seo-section-block__content">
+									<p>
+										Компания «Радар» предоставляет полный спектр услуг по подбору, поставке и монтажу огнезащитных материалов и систем. Мы гарантируем правильный выбор и своевременное обслуживание огнезащитных решений, обеспечивая высокое качество как продукции, так и выполненных работ. В нашем ассортименте представлены материалы для защиты практически любых строительных конструкций.
+									</p>
+									<p>
+										Огнезащита — важнейший этап строительства и эксплуатации зданий. Она закладывается еще на стадии проектирования и остается актуальной на протяжении всего срока службы объекта. Услуги квалифицированных специалистов в этой сфере востребованы, поскольку надежная противопожарная защита помогает сохранить жизни и имущество в чрезвычайных ситуациях. Мы предлагаем широкий выбор товаров и комплексных решений для обеспечения пожарной безопасности.
+
+									</p>
+									<p>
+										Компания «Радар» предоставляет полный спектр услуг по подбору, поставке и монтажу огнезащитных материалов и систем. Мы гарантируем правильный выбор и своевременное обслуживание огнезащитных решений, обеспечивая высокое качество как продукции, так и выполненных работ. В нашем ассортименте представлены материалы для защиты практически любых строительных конструкций.
+									</p>
+									<p>
+										Огнезащита — важнейший этап строительства и эксплуатации зданий. Она закладывается еще на стадии проектирования и остается актуальной на протяжении всего срока службы объекта. Услуги квалифицированных специалистов в этой сфере востребованы, поскольку надежная противопожарная защита помогает сохранить жизни и имущество в чрезвычайных ситуациях. Мы предлагаем широкий выбор товаров и комплексных решений для обеспечения пожарной безопасности.
+
+									</p>
+									<p>
+										Компания «Радар» предоставляет полный спектр услуг по подбору, поставке и монтажу огнезащитных материалов и систем. Мы гарантируем правильный выбор и своевременное обслуживание огнезащитных решений, обеспечивая высокое качество как продукции, так и выполненных работ. В нашем ассортименте представлены материалы для защиты практически любых строительных конструкций.
+									</p>
+									<p>
+										Огнезащита — важнейший этап строительства и эксплуатации зданий. Она закладывается еще на стадии проектирования и остается актуальной на протяжении всего срока службы объекта. Услуги квалифицированных специалистов в этой сфере востребованы, поскольку надежная противопожарная защита помогает сохранить жизни и имущество в чрезвычайных ситуациях. Мы предлагаем широкий выбор товаров и комплексных решений для обеспечения пожарной безопасности.
+
+									</p>
+									<p>
+										Компания «Радар» предоставляет полный спектр услуг по подбору, поставке и монтажу огнезащитных материалов и систем. Мы гарантируем правильный выбор и своевременное обслуживание огнезащитных решений, обеспечивая высокое качество как продукции, так и выполненных работ. В нашем ассортименте представлены материалы для защиты практически любых строительных конструкций.
+									</p>
+									<p>
+										Огнезащита — важнейший этап строительства и эксплуатации зданий. Она закладывается еще на стадии проектирования и остается актуальной на протяжении всего срока службы объекта. Услуги квалифицированных специалистов в этой сфере востребованы, поскольку надежная противопожарная защита помогает сохранить жизни и имущество в чрезвычайных ситуациях. Мы предлагаем широкий выбор товаров и комплексных решений для обеспечения пожарной безопасности.
+
+									</p>
+								</div>
+								<button hidden data-showmore-button type="button" class="seo-section-block__more link-red"><span>Показати ще</span><span>Сховати</span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.seo-section -->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__content">
+						<div class="top-footer__widget widget-footer">
+							<div class="widget-footer__column">
+								<h3 class="widget-footer__title h3">Компания</h3>
+								<ul>
+									<li><a href="#">О нас</a></li>
+									<li><a href="#">Проекты</a></li>
+									<li><a href="#">Клиенты</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div>
+							<div class="widget-footer__column">
+								<h3 class="widget-footer__title h3">Услуги</h3>
+								<ul>
+									<li><a href="#">Разработка CRM/ERP систем</a></li>
+									<li><a href="#">Техническая поддержка сайтов</a></li>
+									<li><a href="#">Онлайн-магазины</a></li>
+									<li><a href="#">Веб-приложения и сервисы</a></li>
+									<li><a href="#">Мобильные приложения</a></li>
+								</ul>
+							</div>
+							<div class="widget-footer__column">
+								<h3 class="widget-footer__title h3">Контакты</h3>
+								<ul class="widget-footer__socials">
+									<li><a href="#" class="widget-footer__social-link widget-footer__social-link--telegram">
+											<img src="img/icons/viber.svg" alt="viber">
+										</a></li>
+									<li><a href="#" class="widget-footer__social-link widget-footer__social-link--whatsapp">
+											<img src="img/icons/whatsapp.svg" alt="whatsapp">
+										</a></li>
+									<li><a href="#" class="widget-footer__social-link widget-footer__social-link--telegram">
+											<img src="img/icons/telegram.svg" alt="telegram">
+										</a></li>
+								</ul>
+								<div class="widget-footer__info-contacts">
+									<p>
+										<img src="img/icons/pin.svg" alt="location">
+										<span>г. Одесса, Манежный переулок, 5</span>
+									</p>
+									<a href="mailto:info@digital.ru">
+										<img src="img/icons/mail.svg" alt="location">
+										<span>office@radar.ua</span>
+									</a>
+									<a href="tel:+0487999789">
+										<img src="img/icons/phone.svg" alt="location">
+										<span>048 799 97 89</span>
+									</a>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__content">
+						<div class="bottom-footer__menu">
+							<ul>
+								<li>
+									<a href="#">Политика конфиденциальности</a>
+								</li>
+								<li>
+									<a href="#">Публичная оферта</a>
+								</li>
+							</ul>
+						</div>
+						<div class="bottom-footer__develop">
+							Разработка сайта — <a href="#">NextWeb</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250520154606"></script>
+</body>
+
+</html>
